@@ -1,4 +1,4 @@
-#THIS IS NOT WORKING AS ESPECTED
+#THIS IS NOT WORKING AS EXPECTED
 
 Steps to reproduce the issue:
 - install dependencies `yarn`
