@@ -1,3 +1,27 @@
+#THIS IS NOT WORKING AS ESPECTED
+
+Steps to reproduce the issue:
+- install dependencies `yarn`
+- build the app `npm run build`
+- start http-server `npx http-server ./dist` and navigate to the given address
+- open chrome developer tools
+
+Error:  
+
+```
+Uncaught Error: Injector: NOT_FOUND [HttpClient]
+    at inject (vendor.dfcef21a1db564434382.js:10641)
+    at getOrCreateInjectable (vendor.dfcef21a1db564434382.js:28160)
+    at Object.directiveInject (vendor.dfcef21a1db564434382.js:28003)
+    at Object.AppComponent_Factory [as factory] (main.c5f0c1bb127672050575.js:46)
+    at renderComponent (vendor.dfcef21a1db564434382.js:27784)
+    at Object../src/main.ts (main.c5f0c1bb127672050575.js:66)
+    at __webpack_require__ (runtime.992f46d7ae7a5557bff7.js:75)
+    at Object.0 (main.c5f0c1bb127672050575.js:81)
+    at __webpack_require__ (runtime.992f46d7ae7a5557bff7.js:75)
+    at checkDeferredModules (runtime.992f46d7ae7a5557bff7.js:44)
+```
+
 # Ng6Meetup
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
